@@ -23,4 +23,9 @@
 If you want to make more combinations you can increase the limits on enums by adding new svg files.
 I will soon make a development so that private nfts can be created by taking data from outside.
 
+If you get this error 'something when wrong installing sharp' you can solve it like this 
+  ```
+  npm install --ignore-scripts=false --verbose sharp
+   ```
+
 note: Inspired by a cli application, turned into a web application
