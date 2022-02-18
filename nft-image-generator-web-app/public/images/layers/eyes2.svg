@@ -1,0 +1,16 @@
+<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <ellipse fill="none" stroke="#000" cx="189" cy="327.5" id="svg_2"/>
+  <ellipse fill="none" stroke="#000" cx="374" cy="211.5" id="svg_3"/>
+  <polyline fill="none" stroke="#000" points="367,146.5 367,146.5 " id="svg_7" stroke-linecap="round"/>
+  <polyline stroke-linecap="round" id="svg_1" points="119,164.5 119,164.5 " stroke="#000" fill="none"/>
+  <ellipse ry="15.5" rx="15.5" id="svg_5" cy="87" cx="83.5" stroke="#000" fill="#7f00ff"/>
+  <ellipse ry="15.5" rx="15.5" id="svg_6" cy="89" cx="181.5" stroke="#000" fill="#7f00ff"/>
+  <ellipse rx="0.5" id="svg_8" cy="80.5" cx="410.5" stroke="#000" fill="none"/>
+  <ellipse stroke="#000" rx="0.5" id="svg_9" cy="91.5" cx="83.5" fill="none"/>
+  <ellipse ry="8.5" rx="7.5" id="svg_10" cy="89" cx="180.5" stroke="#000" fill="#000000"/>
+  <ellipse ry="8.5" rx="7.5" id="svg_11" cy="87" cx="83.5" stroke="#000" fill="#000000"/>
+ </g>
+
+</svg>

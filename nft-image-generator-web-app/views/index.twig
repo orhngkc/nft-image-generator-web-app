@@ -1,0 +1,36 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img id="created" class="img-fluid rounded-circle" src="/images/nft/321323.png" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4" id="waiting">Welcome :)</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+{% endblock %}
+
+{% block js %}
+$('#generator').click(function(){
+    $.post( "/api/v1/generate", function( data ) {
+        $('#waiting').text('Generating');
+        let d = JSON.parse(data);
+        let src = '/images/nft/' + d.id;
+
+        
+
+        setTimeout( 
+            function(){$('#created').attr('src', src);
+            $('#waiting').text('Generated this');}
+        , 3000)
+    });
+});
+{% endblock %}
