@@ -1,6 +1,9 @@
 # nft-image-generator-web-app
 
-1. cd nft-image-generator-web-app project,
+1. enter the project
+  ```
+  cd nft-image-generator-web-app
+  ```
 2. Install requirements
   ```
     npm install
