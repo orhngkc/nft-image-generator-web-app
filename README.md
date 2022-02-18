@@ -29,3 +29,6 @@ If you get this error 'something when wrong installing sharp' you can solve it l
    ```
 
 note: Inspired by a cli application, turned into a web application
+
+
+<img width="1791" alt="Ekran Resmi 2022-02-18 13 58 34" src="https://user-images.githubusercontent.com/63417988/154670145-34bb38e4-6f64-4c89-b75b-ee1c0e275522.png">
