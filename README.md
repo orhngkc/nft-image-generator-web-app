@@ -17,3 +17,10 @@
   
   node bin/www
   ```
+4. Go to localhost:3000 and press generate button :)
+
+
+If you want to make more combinations you can increase the limits on enums by adding new svg files.
+I will soon make a development so that private nfts can be created by taking data from outside.
+
+note: Inspired by a cli application, turned into a web application
